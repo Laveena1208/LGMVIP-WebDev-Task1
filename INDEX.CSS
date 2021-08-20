@@ -1,0 +1,362 @@
+.carousel-item{
+
+    height : 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+     background-size: cover;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left:69%;
+  transform: translatex(-50%);
+}
+
+
+.container{
+       padding : 0 25%;
+   }
+
+.Slider{
+    padding: 0 25%;
+    text-align: left;
+    position: absolute;
+    top:14rem;
+   }
+
+.mainline{
+    color: white;
+   }
+
+.Learn-button{
+    background-color: #ffc107;
+    color: black;
+    text-decoration: none;
+     width: 140px;
+     height: 50px;
+     text-align: center;
+   }
+.Learn-button:hover{
+    background-color: #72147e;
+    color: white;
+   }
+
+.Booknow-button{
+    background-color: #72147e;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+   }
+.Booknow-button:hover{
+    background-color: #ffc107;
+    color: black
+   }
+
+h2{
+        text-align: center;
+    }
+    
+.Learnmore{
+    background-color: #ffc107;
+    color: black;
+    text-decoration: none;
+     width: 160px;
+     height: 50px;
+     text-align: center;
+   }
+.Learnmore:hover{
+    background-color: #72147e;
+    color: white;
+   }
+.LearnMore{
+    background-color: #72147e;
+    color: white;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+   }
+.LearnMore:hover{
+    background-color: #ffc107;
+    color: black
+   }
+
+
+.welcome{
+        padding-top: 6%;
+    }
+.welcome-data{
+        padding: 0 25%;
+    }
+   
+
+.about{
+        color:grey;
+         text-align: left;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+
+.welcome-card-title{
+        font-weight: 600;
+        padding: 10% 5%;
+        color:  purple;
+      }
+.welcome-card-text{
+        padding: 0 10% 5% 10%;
+        color: gray;
+      }
+
+
+#projects{
+          padding-top: 2%;
+      }
+.card-img-top{
+        width: 100%;
+        height: 26vw;
+        object-fit:cover;
+      }
+
+.projects-card-body1{
+        background-color:  #e0e0e0;
+        text-align: left;
+        padding: 15% 10%;
+      }
+.projects-card-body1:hover{
+        background-color: #f6ec93;
+    }
+.projects-card-body2{
+        background-color: #d1d1d1;
+        text-align: left;
+        padding: 15% 10%;
+      }
+.projects-card-body2:hover{
+          background: #f6ec93;
+      }
+.projects-card-title{
+          color: black;
+      }
+.projects-card-text{
+          color: #807e80;
+      }
+
+.casestudy{
+        background-color: white;
+        border: 0; 
+        color:#303030;
+        font-size: 14px;
+        font-weight: 650;
+        width: 250px;
+        height: 50px;
+      }
+.casestudy:hover{
+        background-color: #72147e;
+        color: white;
+      }
+
+
+
+#pricing{
+          background-color: white;
+      }
+
+.pricing-data{
+        padding: 0 25%;
+        padding-top: 3%;
+      }
+.pricing{
+        background-color:#fdca40;
+        color: black;
+        padding: 1% 18%;
+      }
+.pricing:hover{
+        background-color:#72147e;
+        color:white;
+      }
+
+.pricing-card1{
+          border: 0;
+      }
+.pricing-card2{
+        border-top: 0;
+        border-bottom: 0;
+        border-width: 2px;
+        border-radius: 0;
+      }
+
+
+
+#video{
+        background-color: #73469f;
+        margin:0;
+        padding: 4% 0;
+      }
+.video-heading{
+        color: white;
+        text-shadow: 1px 1px 2px black;
+      }
+#video-slide{
+        max-width: 100%;
+        width: 2000px;
+        display: flex;
+        min-height: 110px;
+        align-items: center;
+      }
+#video-slider{
+        width: 1800px;
+        display: flex;
+        /* flex-wrap: nowrap; */
+        overflow-x: hidden;
+      }
+
+
+.members-data{
+        padding: 0 25%;
+        padding-top: 3%;
+      }
+.members-div{
+      margin: 10px;
+      background-color:#8449c0;
+      height: 140px;
+      width: 140px;
+      border-radius: 100%;
+      }
+.members-image{
+        height: 140px;
+        width: 140px;
+        position: relative;
+        top:-32px;
+        border-radius: 100%;
+      }
+.members-image:hover{
+        opacity: 0.4;
+      }
+.members-icon{
+        height: 30px;
+        padding: 2%;
+        width: auto;
+        position: relative;
+        top: 60px;
+        left: 20px;
+        text-align: center;
+      }
+.members-div:hover .members-icon{
+        display: inline;
+        z-index: 999;
+      }
+
+
+
+#life{
+        background-color: #e0e0e0;
+        padding-bottom: 2%;
+      }
+.Lifephotos{
+          text-align: center;
+       }
+
+.preview{
+        height:50%;
+        width:50%;
+      }
+
+.thumb{
+        height:8%;
+        width:9%;
+        margin-right: 5px;
+}
+
+
+
+#newsletter{
+        margin: 0;
+        padding: 0;
+        background-image:url("Images/Newletter.jpg");
+      }
+.newsletter-heading{
+        padding-top:4%;
+        padding-bottom: 2%;
+        color: white;
+        text-shadow: 1px 1px 1px wheat;
+      }
+.newsletter-form{
+        width: 40%;
+        margin: auto;
+      
+      }
+.signup{
+         background-color: #ffc107;
+          color: black;
+          text-decoration: none;
+          width: 130px;
+          height: 50px;
+          text-align: center;
+            
+      }
+.signup:hover{
+        background-color:#72147e;
+        color: white;
+      }
+
+
+.blog-data{
+        padding: 0 25%;
+        padding-top: 3%;
+      }
+.blog-card{
+        padding: 4%;
+        border: 0;
+        border-radius: 0;
+      }
+.Readmore-button{
+        background-color: lightgray;
+        text-decoration: none;
+         width: 140px;
+         height: 50px;
+         text-align: center;
+      }
+.Readmore-button:hover{
+        background-color: #fdca40;
+     
+      }
+
+.image{
+  padding: 0;
+}
+
+.contactform{
+  background-color: #fce165;
+  padding-left: 3%;
+}
+.form{
+  padding-left: 2%;
+  width: 300px;
+}
+.label{
+  font-size: 15px;
+  font-weight: bold ;
+}
+.send-button{
+  width: 284px;
+  height: 43px;
+  background-color:#73469f;
+  color: white;
+}
+.send-button:hover{
+  background-color:#93549c;
+  color: white;
+}
+
+.footer{
+        padding: 0 25%;
+        padding-top: 3%;
+    }
+    
+
+
+i{
+      padding:3% 6%;
+    }
